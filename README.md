@@ -10,19 +10,32 @@ Ubuntu 18.04 LTS
 Python 3.6+ (Ubuntu 18.04 LTS includes Python 3.6 installed)
 
 This blockchain will run under different environment.
+
 1 core 1G RAM
+
 1 core 4G RAM
+
 1 core 8G RAM
+
 2 core 1G RAM
+
 2 core 4G RAM
+
 2 core 8G RAM
+
 3 core 1G RAM
+
 3 core 4G RAM
+
 3 core 8G RAM
+
 4 core 1G RAM
+
 4 core 4G RAM
+
 4 core 8G RAM
- 
+
+
 1. Install git
 ```
 $ sudo apt install git
