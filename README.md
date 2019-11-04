@@ -1,12 +1,11 @@
 # blockchain
-
-## Mining
-This mining algorithm uses SHA-256. Bitcoin's algorithm is based on the block header + Nouce as a string. Simple blockchain simplifies the header information, but the mechanism and Bitcoin are constant.
+## Introduction
+The implementation already has mining, transaction, communication between nodes, and file persistence of blocks and transactions. This mining algorithm uses SHA-256. Bitcoin's algorithm is based on the block header + Nouce as a string. Simple blockchain simplifies the header information, but the mechanism and Bitcoin are constant.
 The blockchain is stored locally in the file in JSON format. The generation of a block is related to the transaction information, so the block information is also stored when the block is stored.
 
-## Installation
-
+## Requirement 
 Ubuntu 18.04 LTS
+
 Python 3.6+ (Ubuntu 18.04 LTS includes Python 3.6 installed)
 
 This blockchain will run under different environment.
@@ -35,6 +34,7 @@ This blockchain will run under different environment.
 
 4 core 8G RAM
 
+## Installation 
 
 1. Install git
 ```
@@ -67,7 +67,7 @@ $ python3 console miner start 3008
 ```
 OR
 ```
-$ python3 console miner start 127.0.0.1:3008c
+$ python3 console miner start 127.0.0.1:3008
 ```
 The mining block will stored at ./blockchain/data/blockchain
 - Transaction transfer.   
@@ -101,9 +101,7 @@ $ python3 console node add [ip:port]
 $ python3 console node list
 ```
 
-## Introduction 
-
-- Blockchain block
+## Blockchain block
 
 Blockchain-python simplified block structure, a blockchain-python block data is as follows:
 ```
